@@ -1,0 +1,39 @@
+/*Arka plan rengini değiştirelim*/
+body{
+    background-color: #35589A;
+}
+
+/*Diğer elementler için biçimlendirme yapalım*/
+nav, footer, a {
+    background-color: #041C32;
+    color: #ECB365;
+    font-family: monospace;
+    font-size: 1.10em;
+}
+nav, footer {
+    padding: 5px;;
+}
+nav {
+    text-align: center;
+}
+article{
+    background-color: #064663;
+    color: white;
+    text-align: justify;
+    font-family: 'Indie Flower', cursive;
+    padding: 5px;;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #F14A16;
+    text-transform:uppercase;
+}
+
+h1 {
+    text-align: center;
+}
+
+figcaption{
+    font-style: italic;
+    color: lightgray;
+}
